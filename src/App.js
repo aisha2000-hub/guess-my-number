@@ -8,7 +8,7 @@ function App() {
    padding:"5px",
    color:"white",}
   const [number, setNumber] = useState("");
-  const [secretNumber] = useState(Math.floor(Math.random() * 10) + 1);
+  const [secretNumber] = useState(Math.floor(Math.random() * 11)) ;
   const [message, setMessage] = useState("Please inter a number!");
   const [counter, setCounter] = useState(0);
 
